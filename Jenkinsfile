@@ -7,7 +7,7 @@ pipeline  {
             steps {
                 git branch: 'main',
                     credentialsId: 'git-creds',
-                    url: 'https://github.com/giriprasath-2003/backend.gits'
+                    url: 'https://github.com/giriprasath-2003/backend.git'
             }
          }
          
