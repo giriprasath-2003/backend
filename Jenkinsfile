@@ -13,7 +13,7 @@ pipeline  {
          
          stage('Install Dependencies') {
             parallel {
-                steps {
+                
                      stage('Install Auth Service') {
 
                     steps {
@@ -89,4 +89,4 @@ pipeline  {
       }
    }   
   }
- }
+ 
